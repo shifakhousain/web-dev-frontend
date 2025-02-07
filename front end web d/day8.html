@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<style>
+    .row1,.row2{
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+        align-content: center;
+
+
+    }
+    .imgs{
+        height: 308px;
+        /* display: flex; */
+        /* align-items: center; */
+        /* flex-direction: column; */
+
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+    p{
+        margin-bottom: 0px;
+        text-align: center;
+        border-top: 2px soid rgba(212, 212, 212, 1);
+        font-weight: 500;
+        font-size: 20px;
+    }
+        
+    /* .imgs {
+        vertical-align: text-bottom;
+        border:2px solid rgba(212, 212, 212, 1) ;
+        border-radius: 16px;
+        border-bottom-left-radius: none;
+        
+        
+    } */
+    .imgs {
+    vertical-align: text-bottom;
+    border: 2px solid rgba(212, 212, 212, 1);
+    border-radius: 16px; /* Set border radius to 0 for all corners */
+    background-color: white; /* Set background color to white */
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35) ;
+}
+
+/* 
+.imgs::after,
+.imgs::before {
+    background-color: white;
+    content: "";
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+
+.imgs::after {
+    bottom: -1px;
+    right: -1px;
+}
+
+.imgs::before {
+    top: -1px;
+    left: -1px;
+} */
+
+@media only  screen and (max-width: 768px) {
+}
+
+
+
+
+</style>
+<body>
+   <div class="container">
+     <div class="row1">
+        <div class="imgs"> <div style=" height:270px ;"><img src="day8pics/Group 1000006734.png"  style="display: flex ;align-content: center;"></div><div style="border-top: 2px solid rgba(212, 212, 212, 1);"><p>Site Development</p></div></div>
+       
+        <div class="imgs"><div style=" height:270px ;"> <img src="day8pics/Group 1000006730.png"  style="display: flex ;align-items: center;" ></div><div style="border-top: 2px solid rgba(212, 212, 212, 1);"><p>Building Construction</p></div> </div>
+        <div class="imgs"><div style=" height:270px ;"><img src="day8pics/Group 1000006735.png"   style="display: flex ;align-content: center;"></div><div style="border-top: 2px solid rgba(212, 212, 212, 1);"><p>Architecture & Planing</p></div> </div>
+
+    </div>
+
+    <div class="row2">
+        <div class="imgs">  <div style=" height:270px ;"> <img src="day8pics/Group 1000006733.png"></div><div style="border-top: 2px solid rgba(212, 212, 212, 1);"><p>Interior Designing</p></div>  </div>
+        <div class="imgs">  <div style=" height:270px ;"><img src="day8pics/Group 1000006731.png"> </div><div style="border-top: 2px solid rgba(212, 212, 212, 1);"><p>Exterior & Renovotion</p></div>  </div>
+        
+
+    </div>
+
+   </div>
+</body>
+</html>

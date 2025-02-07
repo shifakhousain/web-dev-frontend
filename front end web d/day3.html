@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card input </title>
+</head>
+<style>
+    ul{
+        display: flex;
+        justify-content: end;
+        
+    }
+    li{
+        margin-right: 20px;
+        
+    }
+    a{
+       
+       text-decoration: none;
+       color:black;
+       font-size: 33px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-color: aquamarine;
+        
+    }
+    img{
+        width:70px ;
+        height: 70px ;
+    }
+    .dropdown-content{
+        display: none;
+        border: 50px;
+        border: 2px solid rgb(165, 224, 28)
+
+    }
+    .dropdown:hover .dropLink{
+        background-color:#ff6a00;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color: aqua;
+       
+
+    }
+    .dropdown-content a:hover{
+        background-color:darkcyan;  
+    }
+    .dropdown-content1{
+        display: none;
+        border: 50px;
+        border: 2px solid rgb(201, 17, 17);
+    }
+    .dropdown1:hover .dropLink1{
+        background-color:pink;
+    }
+ .dropdown1:hover .dropdown-content1{
+    display: block;
+    background-color: bisque;
+    
+ }
+ .dropdown-content1 a:hover{
+    background-color: rgb(243, 106, 26);
+ }
+ 
+</style>
+<body>
+    <div class="header">
+        <img src="img1.jpg">
+        <ul type="none" >
+            <li><a href="#">Home</a></li>
+           
+            <li class="dropdown1">
+                <a href="#" class="dropLink1">items </a>
+                <div class="dropdown-content1">
+                    <a href="#" >Bca</a><br>
+                    <a href="#">Bcom</a><br>
+                    <a href="#">BBA</a><br>
+                    <a href="#">BA</a><br>
+                </div>
+                    
+                
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropLink">courses</a>
+                <div class="dropdown-content">
+                    <a href="#">JavaScript</a><br>
+                    <a href="#">python</a><br>
+                    <a href="#">C++</a><br>
+                </div>
+            </li>
+            
+            <li><a href="#">contact</a></li>
+
+        </ul>
+       
+    </div>
+</body>
+</html>
